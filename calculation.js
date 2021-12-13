@@ -13,5 +13,12 @@ var uncleInches = 160;
 var feet = inchesFeet(uncleInches);
 console.log(feet)
 
+function mileToKm(mile) {
+    var km = mile * 1.60934;
+    return km;
+}
 
+var mile = 10;
+var result = mileToKm(mile)
+console.log(result)
 
