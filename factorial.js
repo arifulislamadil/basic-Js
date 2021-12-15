@@ -1,10 +1,24 @@
-var input = 10;
-function myFactorial(factorial) {
-    for (var i = 1; i <= input; i++) {
+var factorial = 1;
+function myfact(fact) {
+    for (let i = 1; i <= 5; i++) {
         factorial = factorial * i;
     }
     return factorial;
 }
-console.log(myFactorial());
+console.log(myfact(factorial))
+// Output: 120
 
-//Output: 3628800
+
+function getFact(number) {
+    let fact = 1;
+    for (var i = 1; i <= number; i++) {
+        fact = fact * i;
+    }
+    return fact;
+}
+
+var input = 5;
+var result = getFact(input)
+
+console.log("factorial of 5 is ", result)
+//Output: 120
