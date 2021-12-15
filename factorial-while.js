@@ -20,7 +20,7 @@ function myFactorial(number) {
     }
     return fact;
 }
-console.log(myFactorial(6));
+console.log(myFactorial(5));
 //Output: 720;
 
 
